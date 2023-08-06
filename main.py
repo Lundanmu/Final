@@ -344,7 +344,7 @@ def draw():
     
       
   if(planet_state == 'HOT') and (program_state == 'PLAY'):
-    sound.play()
+  
     #p5.background(170,30,100)
     p5.textSize(24)
     p5.fill(199,246,246)
