@@ -8,7 +8,6 @@ planet_state = 'MIDDLE'
 
 font = p5.loadFont('PressStart2P(1).otf')
 # variable to store sound data:
-sound = p5.loadSound('BGM.mp4')  
 
 
 class cloud():
