@@ -8,6 +8,7 @@ planet_state = 'MIDDLE'
 
 font = p5.loadFont('PressStart2P(1).otf')
 # variable to store sound data:
+sound = p5.loadSound('BGM3.mp4')  
 
 
 class cloud():
@@ -343,7 +344,7 @@ def draw():
     
       
   if(planet_state == 'HOT') and (program_state == 'PLAY'):
-  
+    sound.play()
     #p5.background(170,30,100)
     p5.textSize(24)
     p5.fill(199,246,246)
